@@ -1,13 +1,12 @@
-## Level 5 
+# Level 5 
 
-### Problem Description
+## Problem Description
 The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
+- human-readable
+- 1033 bytes in size
+- not executable
 
-    human-readable
-    1033 bytes in size
-    not executable
-
-### Solution
+## Solution
 - The challenge contained a `inhere` directory with multiple folders and files
 - I used `find` command to find the file that is human readable and 1033 bytes in size
 ```bash
