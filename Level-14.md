@@ -32,6 +32,8 @@ echo "password_of_level_14" | nc localhost 30000
         - `-w x` --> Set connection timeout after x seconds
         - `-k` --> Keep listening after disconnect
         - `-q` --> Quit after EOF
+        - `-4` --> Force IPv4
+        - `-6` --> Force IPv6
 
 ## Takeaway
 - `nc` can take input from `stdin` and send it through the network connection
